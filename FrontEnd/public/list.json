@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":2,
+        "name":"Food Book",
+        "title":"The Science of Indian Cooking",
+        "price":10,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":3,
+        "name":"Fiction Book",
+        "title":"Nineteen Eighty-Four",
+        "price":90,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":4,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":5,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":6,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":7,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":8,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":9,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }, {
+        "id":10,
+        "name":"Story Book",
+        "title":"The Illustrated Stories of Tenali Raman",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715365455~exp=1715369055~hmac=7658cc4c2ba372cbda572c97886e68daa1547d46feb1e3ab57d40549f4fd1e20&w=1060"
+    }
+]
