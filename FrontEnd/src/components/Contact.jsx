@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
-import Login from "./Login";
-const Signup = () => {
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+const Contact = () => {
   const {
     register,
     handleSubmit,
@@ -12,12 +12,12 @@ const Signup = () => {
   const onSubmit = (data) => {
     console.log(data); // Print form data to console
   };
-
-  return (
+  return (<>   
+   <NavBar/>
     <div>
       <div className="flex h-screen items-center justify-center">
         <div className=" border-[2px] shadow-md p-5 rounded-md w-[600px]">
-          <h3 className="font-bold text-lg">SignUp</h3>
+          <h3 className="font-bold text-lg">Contact Us</h3>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="mt-4 space-y-2">
               <span>Name</span>
@@ -50,48 +50,37 @@ const Signup = () => {
                 </span>
               )}
               <br />
-              <span>Password</span>
+              <span>Message</span>
               <br />
-              <input
-                type="password"
-                placeholder="Enter your Password..."
+              <div>
+              <textarea
+                {...register("message", { required: true })}
                 className="w-80 px-3 border rounded-md outline-none py-1"
-                {...register("password", { required: true })}
-              />
-              <br />
-              {errors.password && (
+                placeholder="Enter your Message..."
+              ></textarea>
+              </div>
+              {errors.message && (
                 <span className="text-sm text-red-500">
                   This field is required
                 </span>
               )}
+
+              <br />
+
               <br />
             </div>
 
-            <div className="flex justify-around mt-4">
-              <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-300">
-                SignUp
-              </button>
-              <p>
-                Have Account?{" "}
-                <button
-                  className="underline text-blue-500 cursor-pointer"
-                  onClick={() => {
-                    document.getElementById("my_modal_2").showModal();
-                  }}
-                >
-                  Login
-                </button>
-                <Login />
-              </p>
-            </div>
+            <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-300">
+              Submit
+            </button>
           </form>
         </div>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
       </div>
     </div>
+    <Footer/>
+    </>
+
   );
 };
 
-export default Signup;
+export default Contact;

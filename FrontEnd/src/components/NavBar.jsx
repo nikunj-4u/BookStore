@@ -69,7 +69,7 @@ function NavBar() {
                 <a href="/courses">Courses</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
                 <a>About</a>
@@ -88,7 +88,7 @@ function NavBar() {
                 <a href="/courses">Courses</a>
               </li>
               <li>
-                <a>Contact</a>
+              <a href="/contact">Contact</a>
               </li>
               <li>
                 <a>About</a>
