@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import list from "../../public/list.json";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";
+import axios from "axios";
 const Courses = () => {
+  const [book,setBook]=useState([]);
+  useEffect(()=>{
+    const getBook=async ()=>{
+      try{
+        const res=await axios.get('http://localhost:8080/books');
+         console.log(res.data);
+         setBook(res.data);
+      }
+      catch(err){
+        console.log(err);
+      }
+    }
+    getBook();
+
+  },[])
   return (
     <div>
       <NavBar />
@@ -28,7 +43,7 @@ const Courses = () => {
         </div>
         <div className="grid mt-12 grid-cols-1 md:grid-cols-4 ">
             {
-                list.map((x)=>{
+                book.map((x)=>{
                     return <Cards ele={x} key={x.id}/>
                 })
             }
